@@ -1,6 +1,6 @@
 import urllib.request
-
-dominio = input("Informe a url: ") 
+print("Exemple URL: http://google.com.br")
+dominio = input("URL: ") 
 listdir = open("FILE TXT HERE", "r") # Open file
 for line in listdir.readlines():
     url = dominio + '/' + line.strip()
