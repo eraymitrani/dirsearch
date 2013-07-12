@@ -10,7 +10,7 @@ for line in listdir.readlines():
         if status == 200:
             print (dominio + '/' + line.strip(),"OK")
         elif status == 302
-            print (dominio + '/' + line.strip(),"REDIR
+            print (dominio + '/' + line.strip(),"REDIR")
         
     except:
         site.status == 404 # Remover paginas 404
